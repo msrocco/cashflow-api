@@ -19,9 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashFlow.Exception", "src\C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashFlow.Infrastructure", "src\CashFlow.Infrastructure\CashFlow.Infrastructure.csproj", "{90FC6431-3450-42F7-BF8E-BE359E739713}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validators.Tests", "tests\Validators.Tests\Validators.Tests.csproj", "{09BA288E-D591-44A4-90E6-D57CE1D9B070}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Validators.Tests", "tests\Validators.Tests\Validators.Tests.csproj", "{09BA288E-D591-44A4-90E6-D57CE1D9B070}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonTestUtilities", "tests\CommonTestUtilities\CommonTestUtilities.csproj", "{7923D5CC-D27C-49DA-82B8-AC6982D4833F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonTestUtilities", "tests\CommonTestUtilities\CommonTestUtilities.csproj", "{7923D5CC-D27C-49DA-82B8-AC6982D4833F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseCases.Test", "tests\UseCases.Test\UseCases.Test.csproj", "{697BA82C-547B-4394-9E5B-C5FEC8D1C8E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,10 @@ Global
 		{7923D5CC-D27C-49DA-82B8-AC6982D4833F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7923D5CC-D27C-49DA-82B8-AC6982D4833F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7923D5CC-D27C-49DA-82B8-AC6982D4833F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{697BA82C-547B-4394-9E5B-C5FEC8D1C8E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{697BA82C-547B-4394-9E5B-C5FEC8D1C8E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{697BA82C-547B-4394-9E5B-C5FEC8D1C8E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{697BA82C-547B-4394-9E5B-C5FEC8D1C8E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,6 +80,7 @@ Global
 		{90FC6431-3450-42F7-BF8E-BE359E739713} = {27D37794-EBDA-4108-B9DE-E1C841F2BA9B}
 		{09BA288E-D591-44A4-90E6-D57CE1D9B070} = {ED7485F8-CF37-4429-90A6-82977E180B70}
 		{7923D5CC-D27C-49DA-82B8-AC6982D4833F} = {ED7485F8-CF37-4429-90A6-82977E180B70}
+		{697BA82C-547B-4394-9E5B-C5FEC8D1C8E2} = {ED7485F8-CF37-4429-90A6-82977E180B70}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {154419C8-9D97-48D0-81F2-4356F779EB11}
