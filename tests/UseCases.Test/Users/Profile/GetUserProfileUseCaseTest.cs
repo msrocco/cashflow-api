@@ -23,8 +23,7 @@ public class GetUserProfileUseCaseTest
         result.Email.Should().Be(user.Email);
     }
 
-
-        private GetUserProfileUseCase CreateUseCase(User user)
+    private GetUserProfileUseCase CreateUseCase(User user)
     {
         var mapper = MapperBuilder.Build();
         var loggeduser = LoggedUserBuilder.Build(user);
